@@ -160,3 +160,21 @@ function mensaje(){
       /* return s */
     }
 }
+
+/* function sendEmail() {
+    const forma = document.getElementById('mens');
+    let email = forma['nombre-email'];
+    let name = forma['email-send']
+    let message = forma['message-email'];
+    Email.send({
+    Host: "smtp.gmail.com",
+    Username : "<sender’s email address>",
+    Password : "<email password>",
+    To : 'jordiavalos3@gmail.com',
+    From : email.value,
+    Subject : name.value,
+    Body : message.value,
+    }).then(
+      message => alert("mail sent successfully")
+    ).;
+} */

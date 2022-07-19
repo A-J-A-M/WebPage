@@ -321,7 +321,7 @@
                         </div>
                         <div class="col-7 text-left py-3">
                             <h3 class="text-danger font-weight-bold font40">Músico</h3>
-                            <p class="text-light mb-1">Encargado de la composición de banda sonora de cortos.</p>
+                            <p class="text-light mb-1">Ayudar en la composición de la banda sonora de cortos.</p>
                         </div>
                     </div>
                 </div>
@@ -556,7 +556,7 @@
                                 </div> 
                             </div>          
                         </div>
-                        <a class="text-danger" href="https://github.com/A-J-A-M/Face-Detect" target="_blank">Ver código</a>
+                        <a class="text-danger" href="https://github.com/A-J-A-M/FaceSmile" target="_blank">Ver código</a>
                     </div> 
                     <div class="col-md-6 col-lg-5 web">
                         <div class="web">
@@ -571,7 +571,7 @@
                                 </div> 
                             </div>          
                         </div>
-                        <a class="text-danger" href="https://github.com/A-J-A-M/Face-Detect" target="_blank">Ver código</a>
+                        <a class="text-danger" href="https://github.com/A-J-A-M/WebPage" target="_blank">Ver código</a>
                     </div> 
                     <div class="col-md-6 col-lg-5 web">
                         <div class="web">
@@ -717,15 +717,15 @@
                 <div class="col-lg-8">
                     <div class="contact-form-card">
                         <h4 class="contact-title">Deja un mensaje</h4>
-                        <form id="mens" method="post" action="mailto:jordiavalos3@gmail.com?subject=subject&message=message">
+                        <form id="mens" method="post">
                             <div class="form-group">
                                 <input id="nombre-email"  class="form-control" type="text" placeholder="Nombre *" required>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="email" placeholder="Email *" required>
+                                <input id="email-send" class="form-control" type="email" placeholder="Email *" required>
                             </div>
                             <div class="form-group">
-                                <textarea id="message-email" class="form-control" id=" placeholder="Message *" rows="7" required></textarea>
+                                <textarea id="message-email" class="form-control" placeholder="Message *" rows="7" required></textarea>
                             </div>
                             <div class="form-group ">
                                 <button type="submit" class="form-control btn btn-primary" onclick="mensaje()">Enviar mensaje</button>
@@ -771,6 +771,9 @@
         </div>
     </footer>
 
+    <!-- Mail -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
 	<!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
@@ -786,6 +789,8 @@
 
     <!-- JohnDoe js -->
     <script src="assets/js/script.js"></script>
+
+    
 
 </body>
 </html>
